@@ -1,6 +1,6 @@
 import subprocess
 
-REQUIRED_PACKAGES = ["tkinter", "filedialog", "messagebox", "threading", "pyautogui"]
+REQUIRED_PACKAGES = ["tkinter", "pyautogui"]
 
 def install_dependencies():
     for package in REQUIRED_PACKAGES:
